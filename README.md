@@ -26,3 +26,11 @@ Result:
 Everything is aligned and in flexboxes in the header and the hero section.
 The image is the perfect size. Changed it from a small screen to a larger screen and grows perfectly. The image quality is stable because I used SVGs instead of JPEGs or PNGs. So I am going to add this to git first before continuing.
 
+Update 
+Situation: The nav bar needs more padding left and right.
+
+Task: Get the navigation bar to be vertically aligned with the main content.
+
+Action: Increased the padding on the left and the right of the div (nav) from 20px to 90px.
+
+Result: It now lines up perfectly even on larger screens. 
