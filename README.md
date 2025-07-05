@@ -70,3 +70,34 @@ Action: Researched on google and stackoverflow. I've tried using the negative ma
 
 Result: 
 Increasing the first negative margin to -25px from -15px fixed the gap.
+
+
+So the block quote section has been added and now I am add the last two sections which are the Call to Action section and the footer.
+
+Running into another issue with stacking. The CTA section they are vertically stacked and I need them to be next to one another horizontally. 
+
+Situation: The CTA section is vertically stacked and I need it horizontal
+
+Task: Have to get them horizontally aligned
+
+Action:
+messed with the margins again and added flex.
+
+Result: 
+Now aligned next to one another.
+
+Added the footer. Now I just need to go in with the finishing touches and project is going to be completed.
+
+Added font changes but now I noticed a new problem that needs solving.
+
+Situation:
+When the page minimizes some elements are still too large
+
+Task: 
+Need to changed graphics and elements to be responsive using percentages instead of pixels.
+Action: I ensured the parent containers height to 100% 
+
+Result: The feature section is good now and no overflow but the CTA needs some improvement. 
+
+
+I was told not worry too much about the mobile responsiveness so I will let it be for now. 

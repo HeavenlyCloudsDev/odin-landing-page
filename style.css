@@ -1,6 +1,9 @@
+
 body {
     background-color: #6A2BC2;
     /* padding: 24px; */
+    font-family: "montserrat", sans-serif;
+
 }
 
 header {
@@ -118,13 +121,16 @@ nav {
     flex-direction: row;
     /* border: 2px solid black; */
     gap: 40px;
-    height: 500px;
+    height: 100%;
     /* padding: 100px; */
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    flex-shrink: 0;
+    /* flex: 1; */
     margin: -25px -25px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
 }
 
 h2 .featured {
@@ -143,11 +149,127 @@ h2 .featured {
 
 
 .feature-info {
-    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    text-align: justify;
+    flex-wrap: wrap;
+    flex-shrink: 1;
 }
 
 
 .feature-info img{
-    width: 300px;
+    width: 100%;
     border-radius: 10px;
 }
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    background-color: #c8a3fc;
+    margin: -25px -25px;
+}
+
+blockquote {
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+    font-weight: 100;
+    width: 50%;
+    font-style: italic;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+}
+
+.quote-section p {
+    text-align: right;
+    margin-right: 400px;
+    font-weight: bold;
+    font-size: 1.9em;
+}
+
+.call-to-action-section {
+    display: flex;
+    min-height: 500px;
+    height: 100%;
+    background-color: #ffffff;
+    margin: -25px -25px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex: 1 1 auto;
+    
+    
+
+}
+
+.cta-box {
+    display: flex;
+    background-color: #6A2BC2;
+    border-radius: 10px;
+    display: flex;
+    height: 50%
+    
+  
+   
+}
+
+.cta-description {
+    justify-content: left;
+    align-items: left;
+    /* border: 2px solid yellow; */
+    width: 900px;
+    color: white;
+    padding: 50px;
+    
+}
+
+.cta-description p {
+    /* border: 2px solid yellow; */
+    width: 700px;
+}
+
+.cta-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 25%;
+
+
+    
+}
+
+.cta-button img {
+    width: 150px;
+    height: auto;
+}
+
+
+footer {
+    background-color: #6A2BC2;
+    margin: -25px -25px;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    color: rgb(223, 89, 171);
+}
+
+footer a:active {
+    color: red;
+}
+
