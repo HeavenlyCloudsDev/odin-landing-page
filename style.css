@@ -1,7 +1,6 @@
 
 body {
     background-color: #6A2BC2;
-    /* padding: 24px; */
     font-family: "montserrat", sans-serif;
 
 }
@@ -11,7 +10,6 @@ header {
     flex-direction: row;
     padding-left: 90px;
     padding-right: 90px;
-    /* border: 2px solid #ffffff; */
     background-color: #6A2BC2;
 }
 
@@ -23,7 +21,6 @@ nav {
 }
 
 .left-nav {
-    /* border: 2px solid #ffffff; */
     display: inline-flex;
     flex-direction: row;
     justify-content: left;
@@ -32,7 +29,6 @@ nav {
 }
 
 .right-nav {
-    /* border: 2px solid #ffffff; */
     display: inline-flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -59,7 +55,6 @@ nav {
 }
 
 .hero-section {
-    /* border: 2px solid #ffffff; */
     padding: 120px;
     display: flex;
     flex-direction: row;
@@ -72,7 +67,6 @@ nav {
 
 .hero-description {
     border: 20px solid transparent;
-    /* width: 100vh; */
     flex: 1 300px;
     padding: 40px;
     box-sizing: border-box;
@@ -101,8 +95,7 @@ nav {
 
 .hero-image {
     display: inline;
-    border: 20px solid transparent;;
-    /* width: 100vh; */
+    border: 20px solid transparent;
     flex: 1 300px;
 
 }
@@ -119,14 +112,11 @@ nav {
 .features-section {
     display: flex;
     flex-direction: row;
-    /* border: 2px solid black; */
     gap: 40px;
     height: 100%;
-    /* padding: 100px; */
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    /* flex: 1; */
     margin: -25px -25px;
     padding-bottom: 50px;
     flex-wrap: wrap;
@@ -135,12 +125,9 @@ nav {
 
 h2 .featured {
     display: block;
-    /* align-items: center;
-    justify-content: center; */
     text-align: center;
     font-size: 1.6em;
     background-color: #ffffff;
-    /* padding: 14px; */
     margin: -25px -25px;
     padding: 50px;
    
@@ -223,7 +210,6 @@ blockquote {
 .cta-description {
     justify-content: left;
     align-items: left;
-    /* border: 2px solid yellow; */
     width: 900px;
     color: white;
     padding: 50px;
@@ -231,7 +217,6 @@ blockquote {
 }
 
 .cta-description p {
-    /* border: 2px solid yellow; */
     width: 700px;
 }
 
@@ -240,7 +225,6 @@ blockquote {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid red; */
     width: 25%;
 
 
